@@ -71,7 +71,7 @@
 # For more information on these options, see docs in plugins/gcov
 :gcov:
   :reports:
-    - HtmlDetailed
+    - Cobertura
   :gcovr:
     :html_medium_threshold: 75
     :html_high_threshold: 90
@@ -101,3 +101,4 @@
     - stdout_pretty_tests_report
     - module_generator
     - gcov
+    - junit_tests_report
